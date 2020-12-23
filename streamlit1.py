@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd 
-from PIL import Image
+#from PIL import Image
 
 st.write("""
 Thiru Praturi's Stock Market Web Application..\n
@@ -8,8 +8,8 @@ This is testing waters (a warmup exercise) using Python based Web Apps where you
 A **Lot MORE** coming very soon on this site (including Predictive Analysis and Portfolio Optimization tools)
 """)
 
-image = Image.open("image1.JPG")
-st.image(image,use_column_width=True)
+#image = Image.open("image1.JPG")
+#st.image(image,use_column_width=True)
 st.sidebar.header ("User Input")
 
 def get_input():
