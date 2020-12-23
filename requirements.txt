@@ -1,3 +1,2 @@
 streamlit
 pandas
-from PIL import Image
